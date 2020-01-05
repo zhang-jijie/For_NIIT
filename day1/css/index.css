@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+.body{ 
+	width:960px ; 
+	height:1000px;
+	margin:0 auto; 
+	position:relative;
+	}
+    /* 网页高度待定*/
+.header {
+	height:90px; 
+	width:100%; 
+}
+.header-left{ 
+	width:200px; 
+	height:80px;
+	margin-left:20px;
+	 margin-top:5px; 
+	  float:left;}
+
+.header-2{
+	height:50px;
+}
+.header-2 ul
+{
+padding:0;
+margin:0;
+}
+.header-2 ul li{ 
+	text-align:center;
+	list-style-type:none;
+	float:left;
+	position: relative;
+}
+.header-2 ul li a
+{
+	display:block;
+	line-height:50px;
+	width:191px;/*考虑浏览器不兼容问题，加上宽度和高度*/
+	height:50px;
+	text-decoration:none;
+	background-color:#9FC;
+	border-right:1px solid white;
+	font-weight:bold;
+}
+.header-2 ul li a:hover {background-color:#ff3300}
+.header-2 ul li ul{display: none;position: absolute;}
+.header-2 ul li:hover ul{display: block;}
+
+.header-2 ul li ul li{top: 100%; z-index:50;left: 0;}
+.header-2.cut{
+	width:2px;
+	background:#FFF;
+	}
+	.header-right{ float:right;
+	 height:80px;
+ 	width:600px; 
+	margin-right:20px;
+	 margin-top:5px;}
+.header-right-right{
+	float:right;height:30px;
+	 margin-top:25px; 
+	 border:solid 1px #ededed;
+	  box-shadow:0 0 4px rgba(0,0,0,0.75);
+	   width:200px;
+	   }
+.betweenheader2-3{ height:2px;}
+.content{
+	height:460px;
+}
+
+.tail{ 
+	height:500px;
+	background-color:#313234;}
+.tail-2{ 
+	background-color:#000; 
+	width:100%;
+	height:300px;}
+.leftside{ 
+	width:320px;
+	float:left ; 
+	height:460px;}
+.leftside-inner{
+	height:280px;
+	margin:50px 20px auto 20px;
+	background:url(../images/Qrcode.png) no-repeat;
+	}
+.leftside-inner-2{
+	height:30px;
+	margin:20px 20px auto 20px;
+	line-height:30px;
+	text-align:center;
+	font-weight:bold;
+	}	
+.middle{ 
+	width:640px;
+	 margin-left:320px; 
+	 height:460px;}
+.middle-inner{
+	height:auto;
+	margin:50px 0  auto 50px;	
+	background-color:#EAEAEA
+}
+.middle-inner ul{
+	list-style-type:none;
+}
+.middle-inner  a{
+	color:black;
+	margin-top:10px;
+	display:block;
+	border-radius:1px;
+	line-height:50px;
+	width:300px;
+	height:50px;
+	text-decoration:none;
+	border-top:1px solid white;
+	font-weight:bold;
+}
+.middle-inner a:hover{ background-color:#C09}
+.header-right-right ul{margin:5px}
+.header-right-right li{ 
+	display:inline; margin:15px;
+	 color:#000; font-weight:bold;}
+.header-right-right  a{ text-decoration:none;}
+.footer3 {
+	border-radius:5px;
+	width: 100%;
+	background: #000;
+	margin: 0px auto;
+	height: 160px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px
+}
+.footer2 {
+	border-top: 1px solid #D4D4D4;
+	color: #444444;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 8px 0 50px;
+	width: 960px;
+	text-align: center;
+}
+.footer2 a {
+	color: #444444;
+	text-decoration: none;
+}
+.footer2 a:hover {
+	color: #CC0000;
+	text-decoration: underline;
+}
+.footer3 a {
+	margin-right: 10px
+}

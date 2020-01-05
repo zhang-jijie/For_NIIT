@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+/***********************全局样式**************************/
+body {
+	overflow-y: hidden;/*y轴上的隐藏，x轴上不隐藏*/
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size: 12px;
+}
+html {
+	background: #fff
+}
+a {
+	color: #BE1C1A;
+	text-decoration: none;
+}
+
+.sign {								/***登陆区域最外围***/
+	position:relative;
+}
+.loginWrap {					/***登录区所有元素容器***/
+	position:relative;
+	margin: 50px auto;
+	line-height: 1.5;
+	width: 965px
+}
+.loginWrap .logo {
+	display: block;
+	width: 160px;
+	height: 60px;
+	margin: 0 0 40px 8px;
+	background: url(../images/fteam.jpg) no-repeat left top
+}
+.login {
+	height: auto;
+	margin: 0 auto;
+
+}
+/*****************登陆表单区域样式***********************/
+.login .loginBord {
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,.075);
+	box-shadow: 0 0 4px rgba(0,0,0,.075);
+	background: rgba(255,255,255,.85);
+	border: 1px solid #ededed;
+	min-height: 380px;
+	padding: 0 23px;
+	width: 310px;
+	color: #333;
+	top: 0;
+	right: 0;
+	margin: 0 auto;
+
+}
+/**********表单区域头部*****************/
+.loginBord .loginTit {
+	margin-bottom: 15px;
+	line-height: 60px;
+	*zoom: 1;
+}
+.loginTit .tosignup {
+	float: right;
+	line-height: 14px;
+	margin-top: 26px;
+	color: #969696;}
+.tosignup .unableLog {
+	margin-right:10px;
+	color:#969696;
+}
+.tosignup .register {
+	display: inline-block;
+	margin-left:10px;
+	color:#d54e4e;
+}
+.loginTit h1 {
+	display: inline-block;
+	margin-top: 20px;
+	line-height: 20px;
+	font-family: "Microsoft YaHei";
+	font-weight: 400;
+	font-size: 20px;
+	color: #BE1C1A
+}
+/***************************************/
+/**********表单登陆区域*****************/
+.textbox {
+	position: relative;
+	margin-bottom: 26px;
+	*zoom: 1;
+}
+.textbox input {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; 		/* Firefox */
+	-webkit-box-sizing:border-box; 	/* Safari */
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 1px solid #CFCFCF;
+	background-color: #fff;
+	vertical-align: middle;
+	padding: 10px 8px;
+	padding-left: 35px;
+	line-height: 1.5;
+	font-size: 14px;
+	outline: 0;
+	height: auto;
+	width: 100%;
+	background-position: 5px 9px;
+	background-repeat: no-repeat;
+}
+.user input {
+	background-image: url(../images/user.jpg);
+}
+.pass input {
+	background-image: url(../images/password.jpg);
+}
+.verification input {
+	background-image: url(../images/verification.jpg);
+}
+.verification span {
+	box-shadow: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	/*height: 100%;*/
+	height: 41px;
+	margin-top: 1px;
+	padding: 0;
+	border-left:  2px solid #CFCFCF;
+}
+.form-group {
+	/*表单组区域样式*/
+}
+.textbox .invalid {
+	position: absolute;
+	display: none;
+	width: 100%;
+	height:1.5em;
+	word-break: keep-all;
+	white-space: nowrap;
+	margin-top: 4px;
+	color: #999;
+	top: 100%;
+	left: 0;
+	padding-left: 26px;
+	background:url(../images/hint.jpg) no-repeat 5px 1px;
+}
+
+.loginctl {
+	padding:10px 0;
+}
+.loginctl .autoLogin {
+	float: right;
+}
+.loginctl .forgetPass {
+	display: inline-block;
+	color: #333;
+	padding-top: 10px;
+	margin-right: 0;
+}
+.loginctl .isAutoLogin {
+	margin-right: 20px;
+	padding-top:10px;
+}
+.isAutoLogin input {
+	vertical-align: middle;
+}
+.loginctl .loginbtn{
+	margin-bottom:10px;
+	background:#f56467;
+	outline: 0;
+	float: left;
+	border: 1px solid #F9477A;
+	display: inline-block;
+	font-family: inherit;
+	word-break: keep-all;
+	white-space: nowrap;
+	font-weight: 400;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 700;
+	font-size: 14px;
+	cursor: pointer;
+	padding: 0 30px;
+	height: 40px;
+	color: #fff;
+	border: 0
+	}
+.loginctl .loginbtn:hover{background:#e03537;}
+/*******************************页脚部分布局********************************/
+.foot {
+	border-top: 1px solid #D4D4D4;
+	color: #444444;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 8px 0 50px;
+	width: 960px;
+	text-align: center;
+}
+.foot a {
+	color: #444444;
+	text-decoration: none;
+}
+.foot a:hover {
+	color: #CC0000;
+	text-decoration: underline;
+}
